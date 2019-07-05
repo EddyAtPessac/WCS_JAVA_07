@@ -18,7 +18,7 @@ public class Hangar {
         // On boucle sur les elements de la liste
         for (Object objVehicule : vehicules) {
             Vehicule vehicule= (Vehicule) objVehicule; // Recupere la classe de base
-            System.out.println(vehicule.doStuff());
+            System.out.println(vehicule.doStuff()+" !");
         } // for vehicule
     }
 
